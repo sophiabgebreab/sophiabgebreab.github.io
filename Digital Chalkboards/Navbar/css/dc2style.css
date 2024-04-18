@@ -1,0 +1,12 @@
+
+table {
+        font-family: 'Crimson Pro', serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.a{list-style-type: lower-roman;}
+.b{list-style-type: square;}
+.c{list-style-type: lower-alpha;}
+.d{list-style-type: "$";}
