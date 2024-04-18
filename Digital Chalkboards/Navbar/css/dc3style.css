@@ -1,0 +1,41 @@
+
+table {
+        font-family: 'Crimson Pro', serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+.a{list-style-type: lower-roman;}
+.b{list-style-type: square;}
+.c{list-style-type: lower-alpha;}
+.d{list-style-type: "$";}
+
+.wikipedia-link {
+        text-decoration: none;
+        color: magenta; 
+    }
+    
+    .wikipedia-link:visited {
+        color: red; 
+    }
+    
+    .wikipedia-link:hover {
+        color: darkcyan; 
+    }
+    
+h1::first-letter {
+        color: purple;
+        font-size: 50px;
+        font-weight: bold;
+}
+
+li::first-letter {
+        font-size: 25px;
+        font-weight: bold;
+}
+/* remove underline for sports teams */
+.list-without-underline a {
+        text-decoration: none;
+    }
+    
