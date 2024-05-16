@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20 px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color:aliceblue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input {
+    padding: 10 px;
+    margin: 10 px 0;
+    border; 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#trivia-response, #number-response {
+    margin-top: 10px;
+    font-weight: bold;
+}
