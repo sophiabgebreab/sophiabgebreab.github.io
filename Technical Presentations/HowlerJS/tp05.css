@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff69b4, #8a2be2);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: powderblue;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button, .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background: #ff69b4;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover, .btn:hover {
+    background: #ff1493;
+    transform: scale(1.1);
+}
+
+button:active, .btn:active {
+    transform: scale(1.05);
+}
+
+.music-player {
+    margin-top: 20px;
+}
+
+#title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#timer, #duration {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.controlsOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.controlsInner .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #8a2be2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playBtn::after {
+    content: '▶️';
+    font-size: 20px;
+}
+
+#pauseBtn::after {
+    content: '⏸️';
+    font-size: 20px;
+}
+
+#prevBtn::after {
+    content: '⏮️';
+    font-size: 20px;
+}
+
+#nextBtn::after {
+    content: '⏭️';
+    font-size: 20px;
+}
+
+#playlist .list-song {
+    background: #8a2be2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#playlist .list-song:hover {
+    background: #7a1be0;
+}
+
+@keyframes playing {
+    0% { background: #ff69b4; }
+    50% { background: #ff1493; }
+    100% { background: #ff69b4; }
+}
+
+.playing {
+    animation: playing 1s infinite;
+}
