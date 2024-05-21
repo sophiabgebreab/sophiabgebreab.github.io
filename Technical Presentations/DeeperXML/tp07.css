@@ -1,0 +1,112 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar placeholder styling */
+#nav-placeholder {
+    background-color: maroon;
+    height: 60px;
+}
+
+/* Footer placeholder styling */
+#footer-placeholder {
+    background-color: maroon;
+    height: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: maroon;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: maroon;
+    color: #ffffff;
+    border-top: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.btn-secondary {
+    background-color: maroon;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: darkred;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid maroon;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#ochreContainer {
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: maroon;
+    text-align: center;
+}
+
+#preview {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .table th, .table td {
+        font-size: 1em;
+    }
+
+    .btn-secondary {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
