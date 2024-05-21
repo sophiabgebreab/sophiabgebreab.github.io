@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff69b4; 
+}
+
+/* Input Group Styling */
+.input-group {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.input-group input {
+    border: 2px solid #ffc107; 
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.input-group button {
+    background-color: #ff69b4; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #ff1493;
+}
+
+#searchResults ul {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#searchResults li {
+    background-color: #ffc0cb; 
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#searchResults li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#searchResults li a:hover {
+    color: #ff69b4; 
+}
+
+#albumResults table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#albumResults th, #albumResults td {
+    border: 1px solid #ff69b4; 
+    padding: 10px;
+    text-align: left;
+}
+
+#albumResults th {
+    background-color: #ff69b4; 
+    color: white;
+}
+
+#albumResults tr:nth-child(even) {
+    background-color: #fffacd; 
+}
+
+#albumResults tr:nth-child(odd) {
+    background-color: #ffe4e1; 
+}
+
+#nav-placeholder, #footer-placeholder {
+    background-color: #ff69b4;
+    height: 50px;
+}
+
