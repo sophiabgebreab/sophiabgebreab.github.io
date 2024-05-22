@@ -1,0 +1,19 @@
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* The main content area should grow to fill the remaining space */
+main {
+    flex: 1;
+}
+
+/* Footer styling */
+.footer {
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+}

@@ -2,12 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Home</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JQuery for NavBar and Footer-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="nav.js"></script>
+    <!-- My Site's CSS -->
+    <link rel="stylesheet" href="/site.css">
+    <style>
+        /* Ensure the body and html take full height */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* The main content area should grow to fill the remaining space */
+        main {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        Sophia's Homepage
-    </h1>
+    <div id="nav-placeholder"></div>
+
+    <main>
+        <h1>Welcome to the Home Page</h1>
+        <p>This is the home page content.</p>
+    </main>
+
+    <footer id="footer-placeholder"></footer>
 </body>
 </html>
+
