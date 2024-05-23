@@ -71,9 +71,9 @@ p {
     border-radius: 8px;
 }
 
-/* Custom button styling */
+/* Contact page custom button styling */
 .btn-custom {
-    background-color: #64d6f2; /* Change this color to match your site's primary color */
+    background-color: #64d6f2; 
     color: rgb(247, 246, 246);
     border: none;
     padding: 10px 20px;
